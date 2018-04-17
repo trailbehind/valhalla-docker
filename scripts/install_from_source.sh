@@ -44,8 +44,8 @@ git clone \
   --depth=1 \
   --recurse-submodules \
   --single-branch \
-  --branch=master \
-  https://github.com/valhalla/valhalla.git libvalhalla
+  --branch=change-default-max-hiking-difficulty-rebased \
+  https://github.com/trailbehind/valhalla.git libvalhalla
 
 cd libvalhalla
 ./autogen.sh

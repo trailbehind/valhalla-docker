@@ -17,7 +17,7 @@ else
 fi
 
 docker build -f Dockerfile-${build} \
-  --tag valhalla/docker:${build}-${tag} \
+  --tag gaiagps/valhalla:${build}-${tag} \
   --no-cache \
   --force-rm \
   .
