@@ -48,7 +48,7 @@ git clone \
   --recurse-submodules \
   --single-branch \
   --branch=master \
-  https://github.com/valhalla/valhalla.git libvalhalla
+  https://github.com/trailbehind/valhalla.git libvalhalla
 
 cd libvalhalla
 ./autogen.sh
