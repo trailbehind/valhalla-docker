@@ -22,6 +22,8 @@ apt-get install -y \
   libboost-all-dev \
   libboost-all-dev \
   libcurl4-openssl-dev \
+  zlib1g-dev \
+  liblz4-dev \
   libprime-server0.6.3-dev \
   libprotobuf-dev prime-server0.6.3-bin \
   libgeos-dev \
@@ -33,6 +35,7 @@ apt-get install -y \
   wget \
   unzip \
   lua5.2 \
+  locales \
   python-all-dev
 
 if [[ $(grep -cF xenial /etc/lsb-release) > 0 ]]; then
