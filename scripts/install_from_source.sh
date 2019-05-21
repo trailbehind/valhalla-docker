@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 add-apt-repository -y ppa:valhalla-core/valhalla
 apt-get update -y
