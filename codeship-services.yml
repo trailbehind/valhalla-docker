@@ -1,6 +1,6 @@
 valhalla:
   build:
-    image: 265147712162.dkr.ecr.us-east-1.amazonaws.com/gaiagps/valhalla
+    image: 265147712162.dkr.ecr.us-east-1.amazonaws.com/gaiagps/valhallav3
     dockerfile: Dockerfile-source
 
 awsgenerator:
