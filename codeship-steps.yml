@@ -1,0 +1,7 @@
+- name: push_to_ecr
+  service: valhalla
+  type: push
+  image_name: 265147712162.dkr.ecr.us-east-1.amazonaws.com/gaiagps/valhalla
+  image_tag: latest
+  registry: https://265147712162.dkr.ecr.us-east-1.amazonaws.com
+  dockercfg_service: awsgenerator
